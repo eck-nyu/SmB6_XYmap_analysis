@@ -20,6 +20,7 @@ There is a set of default parameter values (FL E, BG E, ...) listed on the left 
 - All parameters with "E" are energies, in units of kinetic energy. 
 - All paremeters with "th" are theta, units of degrees. 
 - All paremeters with "k" are momenta, units of inverse angstrom. 
+
 See XYmap_gui.m script for more descriptions of the parameters. \
 Click "Save" at bottom left to save the current set of parameter values into the selected .mat file along with the spectra dataset. \
 Click "Run" to run the feature map analysis code as defined in run_the_params.m script and produce a set of feature maps. \
