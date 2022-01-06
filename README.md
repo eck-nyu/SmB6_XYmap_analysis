@@ -11,10 +11,12 @@ Save all files in this repository into the same folder, then run XYmap_gui.m.
 You can take a set of ARPES images, saved in the .itx format, saved into a folder that you specify within XYmap_gui.m script as variable data.itx_foldername and corresponding .csv file specified with data.csv_filename. \
 The .csv file contains XY scan metadata, listing the manipulator X,Y coordinates of each ARPES image in the folder of itx files. \
 Functions itx_csv_to_spec.m and csv_to_XY_list.m convert the dataset into a set of variables. You can now save these into a .mat file using the commented-out code located in the convertItx2Mat function inside the gui script. \
+Restart the gui with the new .mat file saved in the same folder. 
 
 #### If you already have the XY scan dataset saved into a mat file: 
-Select the mat file from the drop-down menu near the top of the gui, click the "Import mat" button. \
-There is a set of default parameter values (FL E, BG E, ...) listed on the left hand side with default values for SmB6 spectral feature analysis. \
+Select the mat file from the drop-down menu near the top of the gui and click the "Import mat" button. \
+If you have a saved set of parameters from a previous run, click "Import params" to import the parameter set included in that .mat file. \
+If not, there is a set of default parameter values (FL E, BG E, ...) listed on the left hand side with default values for SmB6 spectral feature analysis. \
 All parameters with "E" are energies, in units of kinetic energy. \
 All paremeters with "th" are theta, units of degrees. \
 All paremeters with "k" are momenta, units of inverse angstrom. \
