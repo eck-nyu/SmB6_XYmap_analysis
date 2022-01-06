@@ -1,8 +1,10 @@
 # SmB6_XYmap_analysis
-Code updated and uploaded on Jan 5 2022, used in analysis published in Kotta et al., "Metallic chemical potentials in an insulating topological state"
+Code updated and uploaded on Jan 5 2022.
+Used in analysis published in Kotta et al., "Metallic chemical potentials in an insulating topological state"
 Direct questions to Erica Kotta at eck325@nyu.edu.
 
 ----- Instructions on how to run the code -----
+
 Save all files in this repository into the same folder, then run XYmap_gui.m 
 
 If you don't already have an XY scan dataset saved into a mat file: 
