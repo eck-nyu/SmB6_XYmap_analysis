@@ -15,24 +15,18 @@ Restart the gui with the new .mat file saved in the same folder.
 
 #### If you already have the XY scan dataset saved into a mat file: 
 Select the mat file from the drop-down menu near the top of the gui and click the "Import mat" button. \
-If you have a saved set of parameters from a previous run, click "Import params" to import the parameter set included in that .mat file. \
-If not, there is a set of default parameter values (FL E, BG E, ...) listed on the left hand side with default values for SmB6 spectral feature analysis. \
-All parameters with "E" are energies, in units of kinetic energy. \
-All paremeters with "th" are theta, units of degrees. \
-All paremeters with "k" are momenta, units of inverse angstrom. \
+##### If you need to set new parameters: 
+There is a set of default parameter values (FL E, BG E, ...) listed on the left hand side with default values for SmB6 spectral feature analysis. 
+- All parameters with "E" are energies, in units of kinetic energy. 
+- All paremeters with "th" are theta, units of degrees. 
+- All paremeters with "k" are momenta, units of inverse angstrom. 
 See XYmap_gui.m script for more descriptions of the parameters. \
 Click "Save" at bottom left to save the current set of parameter values into the selected .mat file along with the spectra dataset. \
 Click "Run" to run the feature map analysis code as defined in run_the_params.m script and produce a set of feature maps. \
-Default set of features included in this demo are: 
-- total intensity (tot int)
-- sample tilt (tilt)
-- J=5/2 f-band energy (f E)
-- J=5/2 f-band width (f S)
-- J=7/2 f-band energy (f2 E) 
-- J=7/2 f-band width (f2 S) 
-- J=7/2:J=7/2 f-band amplitude ratio (f21 rat)
-- Sm-multiplet feature intensity (Ism)
-- Sm-multiplet feature energy (Ism E)
+##### If you have a saved set of parameters from a previous run:
+Click "Import params" to import the parameter set included in that .mat file. \ 
+##### To convert theta-->k or adjust geometry parameters: 
+Click "Convert axes" to convert to momenta with the specified experimental geometry parameters. 
 
 #### If you already have set of feature maps output from gui: 
 Click "Map error" button to calculate the standard deviation of each feature map, defined in the calculate_map_error.m script. \
