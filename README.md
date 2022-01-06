@@ -14,7 +14,7 @@ Functions itx_csv_to_spec.m and csv_to_XY_list.m convert the dataset into a set 
 Restart the gui with the new .mat file saved in the same folder. 
 
 #### If you already have the XY scan dataset saved into a mat file: 
-Select the mat file from the drop-down menu near the top of the gui and click the "Import mat" button. \
+Select the mat file from the drop-down menu near the top of the gui and click the "Import mat" button. 
 ##### If you need to set new parameters: 
 There is a set of default parameter values (FL E, BG E, ...) listed on the left hand side with default values for SmB6 spectral feature analysis. 
 - All parameters with "E" are energies, in units of kinetic energy. 
