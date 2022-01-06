@@ -21,7 +21,16 @@ All paremeters with "k" are momenta, units of inverse angstrom. \
 See XYmap_gui.m script for more descriptions of the parameters. \
 Click "Save" at bottom left to save the current set of parameter values into the selected .mat file along with the spectra dataset. \
 Click "Run" to run the feature map analysis code as defined in run_the_params.m script and produce a set of feature maps. \
-Default set of features included in this demo are: total intensity, sample tilt, J=5/2 f-band energy, J=5/2 f-band width, J=7/2 f-band energy, J=7/2 f-band width, J=7/2:J=7/2 f-band amplitude ratio, Sm-multiplet feature intensity, Sm-multiplet feature energy 
+Default set of features included in this demo are: \
+- total intensity (tot int)
+- sample tilt (tilt)
+- J=5/2 f-band energy (f E)
+- J=5/2 f-band width (f S)
+- J=7/2 f-band energy (f2 E) 
+- J=7/2 f-band width (f2 S) 
+- J=7/2:J=7/2 f-band amplitude ratio (f21 rat)
+- Sm-multiplet feature intensity (Ism)
+- Sm-multiplet feature energy (Ism E)
 
 #### If you already have set of feature maps output from gui: 
 Click "Map error" button to calculate the standard deviation of each feature map, defined in the calculate_map_error.m script. \
