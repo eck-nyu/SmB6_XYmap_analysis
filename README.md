@@ -22,7 +22,7 @@ There is a set of default parameter values (FL E, BG E, ...) listed on the left 
 - All paremeters with "k" are momenta, units of inverse angstrom. 
 
 See XYmap_gui.m script for more descriptions of the parameters. \
-Click "Save" at bottom left to save the current set of parameter values into the selected .mat file along with the spectra dataset. \
+Click "Save" at bottom left to save the current set of parameter values into a new .mat file (name set same as mat file of spectral data with added "\_params") \
 Click "Run" to run the feature map analysis code as defined in run_the_params.m script and produce a set of feature maps. \
 ##### If you have a saved set of parameters from a previous run:
 Click "Import params" to import the parameter set included in that .mat file. \ 
