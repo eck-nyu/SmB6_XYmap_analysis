@@ -23,19 +23,21 @@ There is a set of default parameter values (FL E, BG E, ...) listed on the left 
 
 See XYmap_gui.m script for more descriptions of the parameters. \
 Click "Save" at bottom left to save the current set of parameter values into a new .mat file (name set same as mat file of spectral data with added "\_params") \
-Click "Run" to run the feature map analysis code as defined in run_the_params.m script and produce a set of feature maps. \
+Click "Run" to run the feature map analysis code as defined in run_the_params.m script and produce a set of feature maps. 
+
 ##### If you have a saved set of parameters from a previous run:
-Click "Import params" to import the parameter set included in that .mat file. \ 
+Click "Import params" to import the parameter set included in that .mat file. 
+
 ##### To convert theta-->k or adjust geometry parameters: 
 Click "Convert axes" to convert to momenta with the specified experimental geometry parameters. 
 
 #### If you already have set of feature maps output from gui: 
 Click "Map error" button to calculate the standard deviation of each feature map, defined in the calculate_map_error.m script. \
-Click "Replot maps" to replot a figure of all the feature maps. \
+Click "Replot maps" to replot a figure of all the feature maps. 
 
 #### If you already have feature maps and map error calculations: 
 Select a feature in the drop-down menu at the bottom under "H axis" to set the spectral feature histogram that will be used to bin the dataset along the horizontal axis. \
 Type the number of bins you want to divide the horizontal axis histogram into in the window "Num bins" next to it. \
 If you want to further bin along a second axis, select another feature map in the drop-down menu under "V axis" and a number >1 in the "Num bins" next to it. \
 Click "Make BS" to plot a series of binned spectra partitioned along the horizontal and/or vertical axis as selected. \
-Select the "k-shift" option if you want to also add a k-correction to each individual spectrum before including into the binning series figure. \
+Select the "k-shift" option if you want to also add a k-correction to each individual spectrum before including into the binning series figure. 
