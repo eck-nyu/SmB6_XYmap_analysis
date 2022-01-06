@@ -1,7 +1,7 @@
 # SmB6_XYmap_analysis
 Code updated and uploaded on Jan 5 2022.
 Used in analysis published in Kotta et al., "Metallic chemical potentials in an insulating topological state." \
-Direct questions to Erica Kotta at eck325@nyu.edu.
+For questions, or to request a set of demo ARPES data (.itx or .mat), email Erica Kotta at eck325@nyu.edu. 
 
 ## Instructions on how to run the code:
 
