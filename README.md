@@ -7,10 +7,12 @@ For questions, or to request a set of demo ARPES data (.itx or .mat), email Eric
 Save all files in this repository into the same folder, then run XYmap_gui. \
 Demo dataset "XYSmB6_demo_data.mat" should be listed in drop-down menu near top of gui. \
 Click "Import mat" to import the mat file data, then click "Import params" to import the pre-saved set of parameters (FL E, BG E, etc). \
-Click "Convert axes" to convert theta to momenta. New momenta axis will be plotted at the top of the main figure. Now parameters including "th" will be ignored for parameters including "k" for both plotting and calculating feature maps (except for tilt map, which searches for L/R d-band crossing in raw-theta to find surface tilt angle and uses that value to convert individual image k-axis). \
+Click "Convert axes" to convert theta to momenta. New momenta axis will be plotted at the top of the main figure. \
+Now parameters including "th" will be ignored for parameters including "k" for both plotting and calculating feature maps (except for tilt map, which searches for L/R d-band crossing in raw-theta to find surface tilt angle and uses that value to convert individual image k-axis). \
 If desired, adjust parameters, and click "Save" to overwrite parameter set mat file. \
 Click "Run" at the bottom of the left-side panel to calculate feature maps. \
-Click "Map error" to estimate the error of feature maps. \\
+Click "Map error" to estimate the error of feature maps. (Necessary step for making binning series.) \
+\
 Select maps from the drop-down menus in bottom panel to choose axes of binning series, and set corresponding number of bins for each axis. Check "k-shift" to apply k-axis correction, then click "Make BS" to plot a binning series. 
 
 ## Instructions on how to run the code:
