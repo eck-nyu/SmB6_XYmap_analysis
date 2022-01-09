@@ -13,7 +13,11 @@ If desired, adjust parameters, and click "Save" to overwrite parameter set mat f
 Click "Run" at the bottom of the left-side panel to calculate feature maps. \
 Click "Map error" to estimate the error of feature maps. (Necessary step for making binning series.) \
 \
-Select maps from the drop-down menus in bottom panel to choose axes of binning series, and set corresponding number of bins for each axis. Check "k-shift" to apply k-axis correction, then click "Make BS" to plot a binning series. 
+Select maps from the drop-down menus in bottom panel to choose axes of binning series, and set corresponding number of bins for each axis. Check "k-shift" to apply k-axis correction, then click "Make BS" to plot a binning series. \
+\
+A new figure will pop up. Click "Plot It" to plot binned spectra, with H-axis distribution plotted at the top and V-axis distribution plotted to the right. \
+Numbers above each binned spectrum indicate how many individual spectra contribute to that bin. H/V bin edges and widths may be adjusted.\
+Click "Export BS" button at top-right to export the current series of spectra and corresponding energy/momentum axes to your current workspace for further analysis. 
 
 ## Instructions on how to run the code:
 
