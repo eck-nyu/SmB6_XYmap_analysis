@@ -3,11 +3,23 @@ Code updated and uploaded on Jan 5 2022.
 Used in analysis published in Kotta et al., "Metallic chemical potentials in an insulating topological state." \
 For questions, or to request a set of demo ARPES data (.itx or .mat), email Erica Kotta at eck325@nyu.edu. 
 
-## Instructions on running quick demo: 
-Save all files in this repository into the same folder, then run XYmap_gui. \
-Demo dataset "XYSmB6_demo_data.mat" should be listed in drop-down menu near top of gui. \
+### Goal: Create a Binning Series template, useful for analysing doping dependence. 
+#### Inputs: 
+- Spatial XY scan of ARPES measurement data 
+#### Outputs:
+- 2d spatial maps of chemical potential (4f-orbital energy), surface termination (surf. Sm density), Kondo decoherence (4f-state lifetime), and sample surface topology (local geometrical tilt)
+- GUI control of modeling parameters (limits of integration, binning series axes, etc)
+- Plots of orbital energies doping dependence (5d- versus 4f-orbital energy) 
+- Plots of surface state Fermi momentum versus doping 
+
+## Quick Start-Up Guide: 
+Save all files in this repository into the same folder, then run XYmap_gui.  
+___Import mat --> Import Params --> Convert axes --> Run --> Map error --> Make BS --> Plot It (--> "Export BS")___
+
+<!-- Demo dataset "XYSmB6_demo_data.mat" should be listed in drop-down menu near top of gui. \ 
 Click "Import mat" to import the mat file data, then click "Import params" to import the pre-saved set of parameters (FL E, BG E, etc). \
 Click "Convert axes" to convert theta to momenta. New momenta axis will be plotted at the top of the main figure. \
+
 Now parameters including "th" will be ignored for parameters including "k" for both plotting and calculating feature maps (except for tilt map, which searches for L/R d-band crossing in raw-theta to find surface tilt angle and uses that value to convert individual image k-axis). \
 If desired, adjust parameters, and click "Save" to overwrite parameter set mat file. \
 Click "Run" at the bottom of the left-side panel to calculate feature maps. \
@@ -18,8 +30,9 @@ Select maps from the drop-down menus in bottom panel to choose axes of binning s
 A new figure will pop up. Click "Plot It" to plot binned spectra, with H-axis distribution plotted at the top and V-axis distribution plotted to the right. \
 Numbers above each binned spectrum indicate how many individual spectra contribute to that bin. H/V bin edges and widths may be adjusted.\
 Click "Export BS" button at top-right to export the current series of spectra and corresponding energy/momentum axes to your current workspace for further analysis. 
+--> 
 
-## Instructions on how to run the code:
+## Slightly more detailed instructions:
 
 Save all files in this repository into the same folder, then run XYmap_gui.
 
